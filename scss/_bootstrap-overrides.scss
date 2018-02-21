@@ -17,7 +17,7 @@ a {
 }
 
 .bg-secondary {
-  background-color: $secondary !important;
+  background-color: darken($secondary, 10%) !important;
 }
 
 .text-primary {

@@ -12,8 +12,16 @@ h6 {
   @include heading-font;
 }
 
-header .container {
-  background-image: "leaves1.jpg" !important;
+.masthead {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Trees_at_Big_Thicket_National_Preserve_%282%29.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+#portrait {
+  border-radius: 50%;
 }
 
 // Custom Horizontal Rule with Star Icon
@@ -44,7 +52,6 @@ hr.star-light {
 }
 hr.star-light:after {
   color: $white;
-  background-color: $primary;
 }
 
 hr.star-dark {
