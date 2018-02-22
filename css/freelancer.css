@@ -205,6 +205,11 @@ header.masthead h2 {
   }
 }
 
+.pfimg {
+  height: 218px;
+  width: 350px;
+}
+
 .portfolio {
   margin-bottom: -15px;
 }
