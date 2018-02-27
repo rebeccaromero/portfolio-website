@@ -57,7 +57,7 @@
       <div class="container">
         <img id="portrait" class="img-fluid mb-5 d-block mx-auto" src="img/profilePic.jpg" alt="">
         <h1 class="text-uppercase mb-0">Rebecca Romero</h1>
-        <hr class="star-light">
+        <hr >
         <h2 class="font-weight-light mb-0">Software Development Engineer - Front End Developer - User Experience Designer</h2>
       </div>
     </header>
@@ -67,13 +67,14 @@
         <div class="container">
           <h2 class="text-center text-uppercase text-white">About</h2>
           <hr class="star-light mb-5">
-          <div class="row">
-            <div class="col-lg-4 ml-auto">
+          <div class="row text-center">
+            <h4>With my newly founded passion for software development, I will work eagerly as an avid learner to gain any knowledge necessary and prove myself. I know this career choice will allow me satisfy my creative side as well as my affinity for problem-solving and reaching goals. I am confident and ready to put my background and my skills to use as an asset to a professional development team.</p>
+            <!-- <div class="col-lg-4 ml-auto">
               <p class="lead">With my newly founded passion for software development, I will work eagerly as an avid learner to gain any knowledge necessary and prove myself. I know this career choice will allow me satisfy my </p>
             </div>
             <div class="col-lg-4 mr-auto">
               <p class="lead">creative side as well as my affinity for problem-solving and reaching goals. I am confident and ready to put my background and my skills to use as an asset to a professional development team.</p>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -84,47 +85,77 @@
         <h2 class="text-center text-uppercase text-secondary mb-0">My Background and Projects</h2>
         <hr class="star-dark mb-5">
         <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-shopping-cart fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid pfimg" src="img/portfolio/ecomm.jpg" alt="">
-              <h3 class="text-center">CoolCat Socks: E-commerce Website</h3>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-6">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-book fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid pfimg" src="img/portfolio/code.jpg" alt="">
-              <h3 class="text-center">Coding Dojo Bootcamp</h3>
+              <img class="img-fluid pfimg" src="img/portfolio/comp_code.jpg" alt="">
+              <div class="coding-bc">
+                <h3 class="text-center">Coding Dojo Bootcamp</h3>
+              </div>
             </a>
           </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+          <div class="col-md-6 col-lg-6">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-briefcase fa-3x"></i>
+                  <i class="fa fa-shopping-cart fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid pfimg" src="img/portfolio/skills.jpg" alt="">
-              <h3 class="text-center">Coding Skills and Qualifications</h3>
+              <img class="img-fluid pfimg" src="img/portfolio/cat_sock_face.jpg" alt="">
+              <h3 class="text-center">CoolCat Socks: E-commerce Website</h3>
             </a>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+          <h3 class="text-center text-uppercase text-secondary mb-0">Skills and Qualifications</h2>
+          <hr class="star-dark mb-5">
+          <div class="row">
+            <div class="col-lg-4 ml-auto">
+              <ul>
+                  <li>Python with Django and Flask</li>
+                  <li>MySQL, SQL Queries</li>
+                  <li>MongoDB with Mongoose</li>
+                  <li>Express, Angular, Node with npm</li>
+                  <li>React with Redux</li>
+                  <li>Socket.io</li>
+                  <li>HTML/CSS</li>
+                  <li>JavaScript</li>
+                  <li>TypeScript</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 ml-auto">
+              <ul>
+                  <li>JQuery</li>
+                  <li>Bootstrap</li>
+                  <li>Microsoft Office Applications</li>
+                  <li>Git and GitHub</li>
+                  <li>SourceTree</li>
+                  <li>OOP</li>
+                  <li>Ajax</li>
+                  <li>PHP</li>
+                  <li>MVC</li>
+                </ul>
+            </div>
+          </div>
+          
+
+          
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
-        <h3 class="text-center text-uppercase text-secondary mb-0">Contact Me</h3>
+        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -230,34 +261,6 @@
     <!-- Portfolio Modals -->
 
     <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0 text-center">Cool Cat Socks</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <ul class="mb-5">
-                <li>Created an e-commerce website, which I built in collaboration with a partner using Python with Django, and then later chose to translate to React with Redux</li>
-                <li>Allowed users to to register and login with validations, on both front and back-end, using API calls with built-in and custom validations</li>
-                <li>Built an admin side where user is able to login, add and manage products, and have access and ability to manage all public users</li>
-                <li>Used ORM queries to filter products, let user add products to their cart, and even edit their cart and quantities, before successfully checking out</li>
-                <li>Collaborated with my partner and managed code changes using Git and SourceTree</li>
-                </ul>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -309,45 +312,33 @@
       </div>
     </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0 text-center">Skills and Qualifications</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <ul>
-                <li>Python with Django and Flask</li>
-                <li>MySQL, SQL Queries</li>
-                <li>MongoDB with Mongoose</li>
-                <li>Express, Angular, Node with npm</li>
-                <li>React with Redux</li>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>JQuery</li>
-                <li>Bootstrap</li>
-                <li>Microsoft Office Applications</li>
-                <li>Git and GitHub</li>
-                <li>SourceTree</li>
-                <li>OOP</li>
-                <li>Ajax</li>
-                <li>PHP</li>
-                <li>MVC</li>
-              </ul>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Section</a>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0 text-center">Cool Cat Socks</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
+                <ul class="mb-5">
+                  <li>Created an e-commerce website, which I built in collaboration with a partner using Python with Django, and then later chose to translate to React with Redux</li>
+                  <li>Allowed users to to register and login with validations, on both front and back-end, using API calls with built-in and custom validations</li>
+                  <li>Built an admin side where user is able to login, add and manage products, and have access and ability to manage all public users</li>
+                  <li>Used ORM queries to filter products, let user add products to their cart, and even edit their cart and quantities, before successfully checking out</li>
+                  <li>Collaborated with my partner and managed code changes using Git and SourceTree</li>
+                  </ul>
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                  <i class="fa fa-close"></i>
+                  Close Project</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
 
     <!-- Bootstrap core JavaScript -->

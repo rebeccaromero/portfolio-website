@@ -1,8 +1,9 @@
 @mixin body-font() {
-  font-family: 'Lato';
+  font-size: 13pt;
+  font-family: Euphorigenic;
 }
 
 @mixin heading-font() {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: Euphorigenic;
 }
