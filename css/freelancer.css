@@ -190,7 +190,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-size: 18pt;
+  font-size: 13pt;
   font-family: Euphorigenic;
 }
 
@@ -212,10 +212,6 @@ header.masthead h2 {
   height: 260px;
   width: 401px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.coding-bc {
-  padding: 15px !important;
 }
 
 .portfolio {
@@ -373,6 +369,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
+  /* background: linear-gradient(#2C3E50,#266b49); */
   background-color: #266b49 !important;
 }
 
